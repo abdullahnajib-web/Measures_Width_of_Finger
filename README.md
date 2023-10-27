@@ -36,3 +36,22 @@ Here we use the Euclidean distance formula using the previous coin reference we 
 4. Please make sure that reference(coin) is left on the hand. 
 
 5. Please make sure that the contrast between background and foreground is obvious.
+
+# Finger Measurement Process
+1. The first image of the hand and the coin on the left as a reference to be processed.
+![image](https://github.com/abdullahnajib-web/Measures_Width_of_Finger/blob/main/documents/finger.png)
+
+2. Threshold the source image and Distinguish the reference and the hand.
+![image](https://github.com/abdullahnajib-web/Measures_Width_of_Finger/blob/main/documents/image_threshold.png)
+
+3. ConvexHull and convexityDefects of the hand.
+![image](https://github.com/abdullahnajib-web/Measures_Width_of_Finger/blob/main/documents/finger_contour.png)
+
+4. Hand Landmark.
+![image](https://github.com/abdullahnajib-web/Measures_Width_of_Finger/blob/main/documents/hand-landmarks.png)
+
+5. Hand width measurement results in millimeters.
+![image](https://github.com/abdullahnajib-web/Measures_Width_of_Finger/blob/main/documents/result.png)
+
+
+
