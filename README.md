@@ -20,3 +20,19 @@ then we can use the contours of the fingers that we already have.
 
 The length of the fingers that we get is still in pixels and we have to convert it to millimeters.
 Here we use the Euclidean distance formula using the previous coin reference we already know the actual size
+
+# How to Run the program
+1. open the cmd.exe and enter the path where Measures_Width_of_Finger.py is located.
+
+2. Take the finger.png as the test image, input the command and Run:
+```	
+    python Measures_Width_of_Finger.py --image finger.png --width 25.4
+```	
+
+3. You could change the finger.png to your own test image name.
+    -image : the name of the test image.
+    -width : the width of the reference(coin). The unit of the results will be the same with the width.
+    
+4. Please make sure that reference(coin) is left on the hand. 
+
+5. Please make sure that the contrast between background and foreground is obvious.
