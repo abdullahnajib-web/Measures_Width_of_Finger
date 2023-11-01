@@ -1,4 +1,4 @@
-# Measuring Finger Width from Photos for Ring Sizing with Image Processing and Hand Landmarks
+# Measuring Finger Width from Photo for Ring Sizing with Image Processing and Hand Landmarks
 The project is used to choose a ring that matches to finger size, using image processing and Hand Landmarks. 
 First, the program will read the image of the hand and a coin besides the hand. The actual size of the coin diameter is known which will be used as a reference for measuring width of finger. then the program will look for the contour of the coin and fingers by determining the threshold using OpenCV.
 After the contour of the coin and fingers are obtained, then the program will detect hand landmarks from the image.
